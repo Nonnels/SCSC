@@ -8,7 +8,7 @@ Swinburne Cyber Security Club
 		- Temporary disable ASLR:
 			- echo 0 > /proc/sys/kernel/randomize_va_space
 		- Compile with:
-			- gcc -g -z execstack -no-pie -o SwinBuf3 SwinBuf3.c
+			- gcc -g -static --no-pie -o SwinBuf2 SwinBuf2.c
 
 		- SwinBuf3 : With Shellcode
 			- SwinBuf3.c

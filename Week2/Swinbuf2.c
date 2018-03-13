@@ -4,7 +4,7 @@
 *  Temporary disable ASLR:
 *		echo 0 > /proc/sys/kernel/randomize_va_space
 *  Compile with:
-*		gcc -g -static --no-pie -o Swinbuf2 Swinbuf2.c
+*		gcc -g -static --no-pie -o SwinBuf2 SwinBuf2.c
 */
 
 int check_pin()
